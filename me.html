@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="max-width: 80%; margin: auto">
+    <h1>Registration Form</h1>
+    <form id="form1" method="post" action="javascript:alert('Submitted')">
+      <table>
+        <tr>
+          <th>
+            <label for="name">What is your name: </label>
+          </th>
+          <td>
+            <input type="text" name="name" id="name" placeholder="Firstname Lastname" required />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="email">Enter your email: </label>
+          </th>
+          <td>
+            <input type="email" name="email" id="email" placeholder="example@me.com" required />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="age">How old are you? </label>
+          </th>
+          <td>
+            <input type="number" name="age" id="age" placeholder="21" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <p>Gneder:</p>
+          </th>
+          <td>
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" />
+            <label for="other">Other</label>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <p>Skills:</p>
+          </th>
+          <td>
+            <ul style="list-style-type: none">
+              <li>
+                <input type="checkbox" name="skill" id="html" />
+                <label for="html">HTML</label>
+              </li>
+              <li><input type="checkbox" name="skill" id="css" /> <label for="css">CSS</label></li>
+              <li>
+                <input type="checkbox" name="skill" id="js" /> <label for="js">Javascript</label>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">REGISTER!</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <hr />
+    <hr />
+    <br /><br />
+
+    <iframe src="Session01(Intor, Setting up tools, HTML).pdf" width="100%" style="height: 100vh" />
+  </body>
+</html>
