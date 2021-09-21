@@ -1,0 +1,19 @@
+* {
+  background-color: aliceblue;
+}
+.image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+h1 {
+  color: green;
+  background-color: red;
+}
+.para {
+  color: blue;
+}
