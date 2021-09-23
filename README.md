@@ -1,6 +1,6 @@
 <div align="center">
 <h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞!, <img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="30px"></h2>
-<h4>Here you can find the first lesson materials</h4>
+<h4>Here you can find the 4<sup>th</sup> lesson materials</h4>
 </div>
 
 ![slide1](img/0001.jpg)
