@@ -1,0 +1,99 @@
+* {
+    background-color: aliceblue;
+  }
+  .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  h1 {
+    color: green;
+    background-color: red;
+  }
+  .para {
+    color: blue;
+  }
+  .img-container {
+    position: sticky;
+    top: 40px;
+    border: 1px solid red;
+  }
+  .rel-box {
+    padding: 20px 130px;
+    margin: 70px 20px;
+    width: 20%;
+    height: 200px;
+    border: 12px solid #Ecc;
+    background-color: #000;
+  }
+  @media screen and (max-width: 460px){
+    .rel-box{
+      background-color: green;
+      padding: 10px;
+    }
+  }
+  .sub-btn {
+    position: absolute;
+    background-color: rgb(254, 254, 255);
+    border: 1px solid #333;
+    margin: 40px;
+  }
+  .sub-btn:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+  .image:hover {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+  }
+  #name:focus {
+    background-color: yellow;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  
+  li:nth-child(odd) {
+    color: #fff;
+    font-size: 1.3rem;
+    background-color: #000;
+    border: 1px solid red;
+  }
+  #txt::first-letter {
+    color: red;
+    font-size: 1.5rem;
+  }
+  #txt::first-line {
+    background-color: #000;
+    color: #fff;
+  }
+  li::marker {
+    color: red;
+  }
+  li::before {
+    content: '\f015';
+    font-family:'Font Awesome 5 Free';
+    color: green;
+  }
+  #txt::selection {
+    color: red;
+    background-color: rgb(14, 11, 13);
+  }
+  .fa-home{
+    color: green;
+    font-size: 2rem;
+  }
+  
