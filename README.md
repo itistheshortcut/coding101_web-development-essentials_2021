@@ -7,5 +7,5 @@
 
 ##Screenshot
 
-[Landing page - layout](screenshot.png)
+![Landing page - layout](screenshot.png)
 
