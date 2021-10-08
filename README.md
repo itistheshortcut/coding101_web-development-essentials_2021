@@ -7,5 +7,7 @@
 
 ##Screenshot
 
-![Landing page - layout](screenshot.png)
+<div align="center" width="90%">
+<img src="screenshot.png" alt=" page-screenshot" width="100%"/>
+</div>
 
