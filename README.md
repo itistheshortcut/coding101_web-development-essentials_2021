@@ -5,6 +5,7 @@
 </h2>
 
 
-##Demo
+##Screenshot
 
-[Landing page - layout](https://github.com/itistheshortcut/coding101_web-development-essentials_2021/tree/layout-challenge/index.html)
+[Landing page - layout](screenshot.png)
+
