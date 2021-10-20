@@ -42,6 +42,74 @@ console.log(addressValues);
 console.log(addressProp);
 
 
+// Object create method
+
+const user2 = {
+    username: 'mostafa',
+    password: '1qaz1qaz',
+    changePassword: function () {
+        console.log(this.password)
+    }
+};
+const user2Details = {
+    email: 'mostaf@me.com',
+    location:'helsinki'
+}
+
+const userwithDetails = Object.assign(user2, user2Details);
+console.log(userwithDetails);
+
+
+
+console.log(user2);
+
+console.log(user2.password);
+
+const newPW = Object.create(user2);
+user2.password = '12wert';
+user2.changePassword();
+
+console.log(user2.password);
+
+
+const car = {
+    name: 'volvo',
+    model: 'v90',
+    price: 25000,
+    discount: function () {
+        console.log(this.price -= this.price * (10 / 100));
+    }
+};
+car.discount();
+console.log(car.price);
+
+const myCar = Object.create(car);
+myCar.price = 10000  ;
+myCar.discount();
+console.log(car.price);
+console.log(myCar);
+
+//Obejct assign
+const carDetails = {
+    year: 2010,
+    color: 'blue'
+};
+
+console.log(car)
+console.log(carDetails);
+
+const car2 = Object.assign(car, carDetails);
+console.log(car2);
+
+
+
+
+
+
+
+
+
+
 
 
 
