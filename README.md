@@ -11,7 +11,5 @@
 ![slide6](img/0006.png)
 ![slide7](img/0007.png)
 ![slide8](img/0008.png)
-![slide9](img/0009.png)
-![slide10](img/0010.png)
 ![slide12](img/0015.png)
 
