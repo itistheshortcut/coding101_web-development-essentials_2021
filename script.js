@@ -42,7 +42,7 @@ ages.unshift(200, 24,31);
 console.log(ages);
 
 
-names.unshift('jessi', 'Kristina','mostafa');
+names.unshift('jessi', 'kristina','mostafa','kdds');
 console.log(names)
 
 
@@ -60,6 +60,53 @@ console.log(ages);
 console.log(ages.slice(5, 7));
 
 
+// splice method
+names.splice(2, 0, 'john');
+names.splice(4, 0, 'julia')
+console.log(names);
+
+names.splice(3, 4);
+console.log(names);
+
+names.splice(1, 0, 'sswmc','marko','mona','mostafa','kree');
+console.log(names);
+
+
+// find method
+
+let findName = names.find(name => name.includes('j'));
+console.log(findName);
+
+let findNumber = ages.find(age => age < 31);
+console.log(findNumber)
+
+
+// filter method
+let filterNames = names.filter(name => name.includes('na'));
+console.log(filterNames);
+
+let filterNums = ages.filter(num => num <= 33);
+console.log(filterNums);
+
+// sort
+let nums = [5, 6, 3, 7, 1, 8, 2];
+
+let sortNums = nums.sort()
+console.log(sortNums);
+
+let nums2 = [25, 16, 3, 37, 211, 18, 32];
+let sortNums2 = nums2.sort((first, second) => second - first);
+console.log(sortNums2);
+
+// sort alphabats
+
+console.log(names);
+let sortNames = names.sort()
+console.log(names);
+
+
+let lastItem = names.slice(-1);
+console.log(lastItem);
 
 
 
