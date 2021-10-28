@@ -17,6 +17,6 @@
 ![slide12](img/0012.png)
 ![slide13](img/0013.png)
 ![slide14](img/0014.png)
-![challenge](img/challenge.png)
+![challenge-slide](img/challenge.png)
 ![slide15](img/0015.png)
 ![slide16](img/0016.png)
