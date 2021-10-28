@@ -1,0 +1,26 @@
+.hello {
+  background-color: rgb(0, 31, 66);
+  color: white;
+  font-weight: bolder;
+}
+
+.error{
+  color: darkred;
+}
+.success{
+  color: darkgreen;
+}
+.warning{
+  color: orange;
+}
+
+.wrapper{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card{
+  border: 2px solid green;
+  width: 160px;
+}
+
