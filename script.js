@@ -5,9 +5,12 @@ main.appendChild(list);
 
 let names = ['mostafa', 'Katja', 'Hanna', 'John', 'Ali', 'Kritina', 'Jessi'];
 
-names.forEach((name) => {
-  list.innerHTML += `<li>${name}</li>`;
-});
+const listItem = item => {
+  return list.innerHTML += `<li>${item}</li>`;
+}
+names.forEach((name) => listItem(name));
+
+
 
 let heading = document.createElement('h2');
 
@@ -93,4 +96,6 @@ users.forEach(user => {
   <p>Location: ${user.location} </p>
   </div>`
 })
+
+
 
