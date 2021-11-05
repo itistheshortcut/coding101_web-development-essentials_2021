@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css"/>
-  <title>UI Events | Javascript tutorials.</title>
-</head>
-<body>
-  <main id="main"></main>  
-  
-  <script src="script.js">
-    /* document.write('<h1>Coding 101 - Javascript basic</h1>'); */
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>UI Events | Javascript tutorials.</title>
+  </head>
+  <body>
+    <main id="main">
+      <p
+        id="title"
+        onmouseover="changeValue()"
+        onmouseout="changeContent()"
+        onmousedown="changeBgColor()"
+        onmouseup="returnBgColor()"
+        onclick="onClickEvent()"
+      >
+        coding101
+      </p>
+
+      <input id="input" onkeyup="getValue(event)"></input>
+
+      <br />
+      <br />
+      <hr/>
+      <br />
+      <input id="num1" />
+      <input id="num2" />
+      <button id="addBtn" onclick="addButton()">ADD</button>
+      <button id="subBtn" onclick="subButton()">SUB</button>
+      <p id="result">0</p>
+      <br />
+      <br />
+      <hr/>
+      <br />
+      <p id="result2">0</p>
+      <button id="incBtn" onclick="incrementFunc()">Increment</button>
+      <button id="decBtn" onclick="decrementFunc()">Decrement</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
