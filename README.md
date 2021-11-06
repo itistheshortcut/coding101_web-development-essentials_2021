@@ -3,4 +3,4 @@
 <h4>POKEMON APP</h4>
 </div>
 
-![pokemon-wireframe](pokemon.png)
+![pokemon-wireframe](pokemon-markup.jpg)
