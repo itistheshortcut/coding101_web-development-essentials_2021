@@ -53,3 +53,19 @@ const decrementFunc = () => {
   result2.style.color = 'green';
   return --result2.textContent;
 };
+
+
+/// addEventListener
+const myName = document.querySelector('#myName');
+const changeBtn = document.querySelector('#changeBtn');
+const myTextInput = document.querySelector('#myTxt')
+
+const changeMyName = (name) => {
+  return myName.textContent = name;
+}
+
+changeBtn.addEventListener('click', () => changeMyName('John'));
+
+/* myTextInput.addEventListener('change', (event) => changeMyName(event.target.value)); */
+myTextInput.addEventListener('input', (event) => changeMyName(event.target.value));
+
