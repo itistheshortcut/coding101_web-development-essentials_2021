@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css"/>
-  <title>Pokemon App | Javascript tutorials.</title>
-</head>
-<body>
-  <main id="main">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokemon App | Javascript tutorials.</title>
+  </head>
+  <body>
+    <header id="header"></header>
+    <main id="main">
+      <div id="title">
+        <h1>POKEMON WORLD</h1>
+        <p id="result">result</p>
+        <div id="searchBox">
+          <input type="text" id="searchInput" placeholder="pokemon name ..." />
+          <i class="fas fa-search"></i>
+        </div>
+        <section id="pokemons"></section>
+      </div>
+    </main>
 
-  </main>  
-  
-  <script src="pokemonData.js"></script>
-  <script src="pokemonScript.js">
-  </script>
-</body>
+    <script src="pokemonData.js"></script>
+    <script src="scripts.js"></script>
+  </body>
 </html>

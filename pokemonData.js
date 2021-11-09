@@ -1,4 +1,4 @@
-const pokemonData = [{
+let pokemonData = [{
     "id": 1,
     "name": {
       "english": "Bulbasaur",
