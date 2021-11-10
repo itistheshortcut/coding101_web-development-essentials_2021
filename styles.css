@@ -1,102 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 
-main {
-  max-width: 80%;
-  margin: auto;
-}
-h1 {
-  font-family: 'Fruktur', cursive;
-  margin-top: 120px;
-  text-align: center;
-}
-#result{
-  text-align: center;
+#title{
+    font-family: 'Fruktur', cursive;
+    text-align: center;
 }
 
-#searchBox {
-  width: 290px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#searchInput{
+    width: 100%;
+    padding: 10px;
+    background-color: #eeeded;
+    margin-right: -35px;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+}
+.fa-search{
+    font-size: 1.5rem;
+    color: #333;
 }
 
-#searchInput {
-  width: 100%;
-  padding: 10px;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
-}
-.fa-search {
-  font-size: 1.5rem;
-  color: #555;
-  margin-left: -35px;
+#searchBox{
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
-.pokemon {
-  max-width: 250px;
-  text-align: center;
-  margin: 10px;
-  cursor: pointer;
-  border: 5px solid orange;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
+.pokemon{
+    width: 200px;
+    border: 3px solid darkred;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
-
-.pokemon-img {
-  width: 120px;
-  height: 120px;
-  margin: 20px;
-}
-#pokemons {
-  margin-top: 40px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-}
-
-.selected-pokemon-img {
-  width: 220px;
-  height: 220px;
-}
-
-#header {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  min-width: 77%;
-  max-width: 77%;
-}
-
-.info-div {
-  width: 230px;
-  text-align: center;
-}
-
-.pType {
-  width: auto;
-  border: 1px solid orange;
-  border-radius: 25px;
-  background-color: orange;
-  color: white;
-  padding: 12px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
-}
-.table-info {
-  min-width: 100%;
-  margin-top: 20px;
-}
-.table-info tr:nth-child(odd) {
-  background-color: #f2f2f2;
+.pokemonImg{
+    width: 120px;
 }
