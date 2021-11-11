@@ -1,43 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 
-#title{
-    font-family: 'Fruktur', cursive;
-    text-align: center;
+#title {
+  font-family: 'Fruktur', cursive;
+  text-align: center;
 }
 
-#searchInput{
-    width: 100%;
-    padding: 10px;
-    background-color: #eeeded;
-    margin-right: -35px;
-    border-radius:25px;
-    -webkit-border-radius:25px;
-    -moz-border-radius:25px;
-    -ms-border-radius:25px;
-    -o-border-radius:25px;
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  background-color: #eeeded;
+  margin-right: -35px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
-.fa-search{
-    font-size: 1.5rem;
-    color: #333;
-}
-
-#searchBox{
-    width: 280px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+.fa-search {
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
 }
 
-.pokemon{
-    width: 200px;
-    border: 3px solid darkred;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+#searchBox {
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
-.pokemonImg{
-    width: 120px;
+
+#pokemons {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 3px solid darkred;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.pokemonImg {
+  width: 120px;
+}
+.selected-img {
+  width: 160px;
+}
+
+#header {
+  max-width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pType {
+  background-color: orange;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
