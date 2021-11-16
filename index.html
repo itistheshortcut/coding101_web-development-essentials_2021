@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BMI Calculator App</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
+    <main>
+      <div id="title">
+        <h1>BMI Calculator App</h1>
+        <img id="heroImg" src="images/bmi-hero.jpg" alt="bmi-calculator" />
+      </div>
+      <div id="wrapper">
+        <section id="info">
+          <div id="calculateSection">
+            <input type="number" id="userWeight" placeholder="Enter weight in Kg." />
+            <input type="number" id="userHeight" placeholder="Enter height in cm." />
+            <button id="calcBtn">CALCULATE</button>
+          </div>
+          <table>
+            <tr>
+              <th>UNDERWEIGHT:</th>
+              <td>BMI is less than 18.5</td>
+            </tr>
+            <tr>
+              <th>NORMAL:</th>
+              <td>BMI is between 18.5 and 24.9</td>
+            </tr>
+            <tr>
+              <th>OVERWEIGHT:</th>
+              <td>BMI is between 25 and 29.9</td>
+            </tr>
+            <tr>
+              <th>OBESE:</th>
+              <td>BMI is 30 or more</td>
+            </tr>
+          </table>
+        </section>
+        <section id="resultSection"></section>
+      </div>
+    </main>
+    <script src="app.js"></script>
   </body>
 </html>

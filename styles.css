@@ -1,0 +1,61 @@
+body{
+    background-color: #c3c2c2;
+}
+
+main{
+ background-color: #fff;
+ width: 70%;
+ margin: 40px auto;
+ border-radius: 25px;
+ -webkit-border-radius: 25px;
+ -moz-border-radius: 25px;
+ -ms-border-radius: 25px;
+ -o-border-radius: 25px;
+}
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#heroImg{
+    max-width: 250px;
+}
+
+#calculateSection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 40%;
+    height: 140px;
+    margin: 25px;
+}
+
+#calculateSection > *{
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+table{
+    margin: 25px;
+    padding-bottom: 40px;
+}
+table th{
+    text-align: right;
+}
+
+
+#wrapper{
+    display: flex;
+}
+
+#calcBtn{
+    background-color: #1894db;
+    color: #fff;
+}
